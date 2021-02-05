@@ -8,7 +8,7 @@ from sklearn.utils import check_array, check_random_state
 from sklearn.utils.extmath import row_norms
 import scipy.sparse as sp
 from sklearn.cluster import MiniBatchKMeans
-from sklearn.cluster.k_means_ import (
+from sklearn.cluster import (
     _init_centroids,
     _labels_inertia,
     _tolerance,
